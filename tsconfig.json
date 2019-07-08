@@ -19,8 +19,6 @@
       ],
       "paths": {
         "*": ["./src/*"],
-        "assets": ["./assets"],
-        "zaewish-shared/*": ["../shared/*"]
       },
       "plugins": [
         {

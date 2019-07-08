@@ -29,7 +29,6 @@ gulp.task('build', () => {
 		'src/**/*.ts',
 		'src/**/*.tsx',
 		'!src/**/*.spec.tsx',
-		'!src/**/*.stories.tsx'
 	])
 	.pipe(tsProject())
 	.pipe(gulp.dest(DEST));

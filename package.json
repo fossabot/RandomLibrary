@@ -20,6 +20,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^24.0.14",
+    "@types/ramda": "^0.26.15",
     "es6-shim": "^0.35.5",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.4.0",
@@ -32,5 +33,8 @@
     "tslint-microsoft-contrib": "^6.2.0",
     "typescript": "^3.5.2",
     "typescript-tslint-plugin": "^0.5.0"
+  },
+  "dependencies": {
+    "ramda": "^0.26.1"
   }
 }

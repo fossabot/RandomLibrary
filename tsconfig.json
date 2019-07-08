@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+      "outDir": "./build/",
+      "noImplicitAny": true,
+      "sourceMap": true,
+      "module": "commonjs",
+      "target": "es5",
+      "jsx": "react",
+      "allowSyntheticDefaultImports": false,
+      "baseUrl": "./",
+      "declaration": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "removeComments": true,
+      "lib": [
+        "dom",
+        "es5",
+        "es6",
+      ],
+      "paths": {
+        "*": ["./src/*"],
+        "assets": ["./assets"],
+        "zaewish-shared/*": ["../shared/*"]
+      },
+      "plugins": [
+        {
+          "name": "typescript-tslint-plugin",
+          "alwaysShowRuleFailuresAsWarnings": false
+        }
+      ]
+  },
+  "exclude": [
+    "/node_modules/",
+  ],
+  "include": [
+    "./src"
+  ]
+}

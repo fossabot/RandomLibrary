@@ -1,0 +1,45 @@
+{
+    "extends": "tslint-microsoft-contrib",
+    "rules": {
+        "ordered-imports": false,
+        "no-implicit-dependencies": false,
+        "missing-jsdoc": false,
+        "no-submodule-imports": false,
+        "prefer-type-cast": false,
+        "no-import-side-effect": false,
+        "no-non-null-assertion": false,
+        "typedef": [
+            true,
+            "call-signature",
+            "parameter",
+            "arrow-call-signature",
+            "member-variable-declaration",
+            "property-declaration"
+        ],
+        "switch-final-break": false,
+        "react-this-binding-issue": false,
+        "export-name": false,
+        "no-relative-imports": false,
+        "prefer-method-signature": false,
+        "no-bitwise": false,
+        "no-null-keyword": false,
+        "newline-per-chained-call": false,
+        "no-unsafe-any": false,
+        "completed-docs": false,
+        "strict-boolean-expressions": false,
+        "no-console": false,
+        "prefer-readonly": false,
+        "restrict-plus-operands": false,
+        "use-simple-attributes": false,
+        "variable-name": false,
+        "use-default-type-parameter": false,
+        "no-unnecessary-type-assertion": false,
+        "no-suspicious-comment": false,
+        "no-backbone-get-set-outside-model": false,
+        "no-multiline-string": false,
+        "no-floating-promises": false,
+        "function-name": false,
+        "no-reserved-keywords": false
+    }
+}
+

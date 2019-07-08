@@ -1,0 +1,62 @@
+{
+  "name": "s4n60w3n-resizer",
+  "version": "1.0.3",
+  "description": "React resizer component",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp clean && gulp build && gulp uglify && gulp copy",
+    "build:dev": "gulp clean && gulp build",
+    "build:prod": "npm run build",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "storybook:start": "start-storybook",
+    "storybook:build": "rm -rf ./docs && build-storybook -o docs",
+    "release": "npm run test && npm run build:prod && cd build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S4n60w3n/resizer.git"
+  },
+  "author": "Bogdan Sikora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/S4n60w3n/resizer/issues"
+  },
+  "homepage": "https://github.com/S4n60w3n/resizer#readme",
+  "devDependencies": {
+    "@storybook/addon-actions": "^5.1.8",
+    "@storybook/react": "^5.1.8",
+    "@types/aphrodite": "^0.5.13",
+    "@types/enzyme": "^3.9.3",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/jest": "^24.0.14",
+    "@types/react": "^16.8.20",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-router-dom": "^4.3.4",
+    "@types/storybook__react": "^4.0.2",
+    "babel-loader": "^8.0.6",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "es6-shim": "^0.35.5",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-typescript": "^5.0.0-alpha.3",
+    "gulp-uglify": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "ts-loader": "^6.0.2",
+    "tslint": "^5.17.0",
+    "tslint-microsoft-contrib": "^6.2.0",
+    "typescript": "^3.5.2",
+    "typescript-tslint-plugin": "^0.5.0",
+    "webpack": "^4.34.0",
+    "webpack-dev-server": "^3.7.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "dependencies": {
+    "aphrodite": "^2.3.1"
+  }
+}

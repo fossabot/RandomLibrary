@@ -7,8 +7,9 @@
     "build": "gulp clean && gulp build && gulp uglify && gulp copy",
     "build:dev": "gulp clean && gulp build",
     "build:prod": "npm run build",
-    "test": "jest",
+    "test": "jest && npm run test:style",
     "test:watch": "jest --watch",
+    "test:style": "tslint -p ./tsconfig.json",
     "release": "npm run test && npm run build:prod && cd build && npm publish"
   },
   "repository": {

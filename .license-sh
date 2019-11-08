@@ -3,9 +3,6 @@
     ".": [
       "yarn"
     ],
-    "./node_modules/combined-stream": [
-      "yarn"
-    ],
     "./node_modules/form-data": [
       "yarn"
     ],
